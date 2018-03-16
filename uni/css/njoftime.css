@@ -1,0 +1,107 @@
+.dim1{
+	width:auto;
+	height: auto;
+    background-color: #fafafa;
+}
+.dim2{
+	width: 950px;
+    height: 760px;
+    margin: 0px auto;
+}
+
+.faqet {
+
+	position:absolute;
+	margin-top:770px;
+	margin-left:10px;
+}
+
+.faqet a:hover{
+	background-color: #6495ED;
+}
+
+.sukses{
+	color:blue;
+	
+}
+.njoftim-body{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 7px;
+	margin: 5px;
+	-webkit-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+}
+.njoftim-body:hover{
+	margin-top: 5px;
+}
+.njoftim-img, .img{
+	width: 100%;
+	height: 130px;
+	background-color: #333;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;  
+}
+#more{
+	width: 100%;
+	height: 35px;
+	background-color: #354052;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px; 
+}
+#more a{
+	padding: 8px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+	text-align: center;
+	position: absolute;
+    padding-left: 110px;
+}
+#njoftim-date{
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	padding: 7px;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: 100;
+	background-color: rgb(165, 34, 32);
+}
+#njoftimi{
+	width: 100%;
+	height: 105px;
+	background-color: #fff;
+	color: #000;
+	padding: 7px;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: 100;
+}
+.desc{
+	overflow: hidden;
+    height: 70px;
+    position: relative;
+    width: 100%;
+    text-align: justify;
+}
+.njoftim a{
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.njoftim{
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.njoftime-container {
+    width: 100%;
+    height: 900px;
+    background-color: #fafafa;
+}

@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1 !important;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+}
+/*-------------------------------Vertikal Menu-------------------------*/
+
+.left-container{
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    background-color: #354052;
+    float: left;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.logo-container{
+    width: 100%;
+    height: 60px;
+    background-color: #29B6F6;
+}
+.logo {
+    width: 200px;
+    height:45px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.menu-container{
+    margin-top: -30px;
+}
+.menu-container a{
+    font-family: "Arial";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.menu-container ul li{
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu-container ul li:hover{
+    background-color: #37474F;
+}
+.submenu {
+    display: none;
+    position: inherit;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: -13px;
+}
+.menu-container ul ul li{
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    background-color: #1f292e;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.plus{
+    position: relative;
+    margin-right: 15px;
+    float: right;
+    font-size: 16px;
+    text-align: right;
+    color:white;
+}
+.menu-container ul ul li:hover{
+    color: #a30d0d;
+    background-color: #0f0f0f;
+    cursor: pointer;
+}
+.right-container{
+    width: calc(100% - 220px);
+    height: 100%;
+    float: right;
+    right: 0;
+    left: 0;
+    margin-top: 60px;
+    background-color: #ebf1f5;
+}
+.hnav-bar{
+    width: 100%;
+    height: 65px;
+    float: right;
+}
+
+.circle-icon{
+    width: 13px !important;
+    height: 13px !important;
+    padding-right: 10px !important;
+}
+.circle-icon-sm{
+    width: 11px !important;
+    height: 11px !important;
+    padding-right: 10px !important;
+    
+}
+
+
+
+/*-------------------------------horizontal Menu-------------------------*/
+.horizontal-container{
+    width: 100%;
+    height: 60px;
+    float: right;
+    position: fixed;
+    top:0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+.left-nav{
+    width: 400px;
+    height: 100%;
+    float: left;
+    margin-left: 220px;
+    color: #1f292e;
+    position: absolute;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+.right-nav{
+    width: 160px;
+    height: 100%;
+    float: right;
+    color: #000;
+}
+.h-nav-mmenu{
+    position: absolute;
+    padding-top: 20px;
+    color: #151b1e;
+    padding-left: 18px;
+    display: inline-block;
+
+}
+.right-nav a{
+    text-decoration: none;
+    color: #151b1e;
+}
+.account-icon{
+    width: 23px;
+    height: 23px;
+}
+.admin-btn{
+    margin-top: 5px;
+    padding-left: 7px;
+    position: fixed;
+}
+
+.submenu-dropdown input{
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+
+.submenu-dropdown{
+    display: none;
+    margin-top: 13px;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: left;
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.submenu-dropdown a{
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}

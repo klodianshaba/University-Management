@@ -1,0 +1,35 @@
+.njoftimiiplote{
+    width:100%;height: auto; background-color:#E6E6FA;
+    style=" -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" >
+}
+.datetime{
+	color:black;
+	display: inline-block;
+	width: 47%;
+	border-bottom: 1px solid;
+	margin-left: 18px;
+
+}
+.autori{
+	color:black;
+	display: inline-block;
+	width: 47%;
+	border-bottom: 1px solid;
+margin-left: 35px;
+}
+.pershkrimi{
+	color:black;
+	display: inline-block;
+	width: 47%;
+		border-bottom: 1px solid;
+		margin-left: 35px;
+}
+.titulli{
+	color:black;
+	display: inline-block;
+	width: 47%;
+	margin-left: 18px;
+		border-bottom: 1px solid;
+}

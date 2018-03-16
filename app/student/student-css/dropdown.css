@@ -1,0 +1,246 @@
+
+
+
+.dropdownnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.dropdown-contentnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+.dropbtnnnn:hover, .dropbtnnnn:focus {
+    background-color: black;
+}
+
+.dropdownnnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.dropdown-contentnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+.dropbtnnnnn:hover, .dropbtnnnnn:focus {
+    color: #ffffff;
+}
+
+.dropdownnnnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnnnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.dropdown-contentnnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+.dropbtnnnnnn:hover, .dropbtnnnnnn:focus {
+    color: #ffffff;
+}
+
+.dropdownnnnnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnnnnn {
+    display: none;
+   position:relative;
+    background-color:white;
+    overflow: auto;
+
+}
+
+.dropdown-contentnnnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+.dropbtnnnnnnn:hover, .dropbtnnnnnnn:focus {
+    color: #ffffff;
+}
+
+.dropdownnnnnnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnnnnnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.dropdown-contentnnnnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnnnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+.dropbtnnnnnnnn:hover, .dropbtnnnnnnnn:focus {
+    color: #ffffff;
+}
+
+.dropdownnnnnnnn {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.dropdown-contentnnnnnnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    overflow: auto;
+}
+
+.dropdown-contentnnnnnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnnnnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+.dropbtnnnnnnnnn:hover, .dropbtnnnnnnnnn:focus {
+    color: #ffffff;
+}
+
+.dropdownnnnnnnnn {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentnnnnnnnn {
+    display: none;
+   position:relative;
+    background-color: white;
+    width: 99.4%;
+    overflow: auto;
+
+}
+
+.dropdown-contentnnnnnnnn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownnnnnnnnn a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.dropbtnnn{
+    border:none;
+    background-color: transparent;
+}
+.dropbtnnnn{
+    border:none;
+    background-color: transparent;
+}
+.dropbtnnnnn{
+    border:none;
+    background-color: transparent;
+}
+.dropbtnnnnnn{
+    border:none;
+    background-color: transparent;;
+}
+.dropbtnnnnnnn{
+    border:none;
+    background-color: transparent;;
+}
+.dropbtnnnnnnnn{
+    border:none;
+    background-color: transparent;;
+}
+.dropbtnnnnnnnnn{
+    border:none;
+    background-color: transparent;
+}
+
+
+.edit-content{
+    padding: 10px;
+    background-color: #4f98c2;
+    width: calc(100% - 30px);
+    margin-top: -10px;
+    color: white;
+    font-size: 12px;
+}

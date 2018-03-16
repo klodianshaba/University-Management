@@ -1,0 +1,27 @@
+﻿td{
+	padding: 10px 60px;
+	font-size: 12px;
+	border: 0;
+}
+tr:nth-child(even) {
+  background-color: #EAD6D6;
+}
+
+table{
+	z-index: 1;
+	width: calc(100% - 20px);
+	margin: 10px;
+	border: 0;
+}
+.e1{
+	border: 0;
+}
+.header{
+	background-color: #354052;
+	border: 0;
+	color: #fff;
+}
+.td{
+	padding: 15px;
+    text-align: center;
+}

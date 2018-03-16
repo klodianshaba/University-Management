@@ -1,0 +1,18 @@
+.njoft{
+	width:auto;
+	height: auto;
+
+}
+.njoft2{
+	width:500px;
+	height:auto;
+	margin:0px auto;
+	background-color:white;
+
+}
+.titulli input{
+	width:100%;
+}
+#error{
+	color:red;
+}

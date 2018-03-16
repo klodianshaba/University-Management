@@ -1,0 +1,26 @@
+﻿td{
+	padding: 10px 10px;
+}
+tr:nth-child(even) {
+  background-color: #EAD6D6;
+}
+#butoni{
+	height: 40px;
+	vertical-align: middle;
+	width: 870px;
+}
+#butoni input{
+	padding: 10px 50px;
+	border-radius: 30px;
+	box-shadow: 2px 1px 1px 0px ;
+	background: #3E0CAE;
+}
+#butoni input:hover{
+	background: #304BEE;
+}
+#butoni input:active{
+	box-shadow: 0px 0px 0px 0px;
+}
+table{
+	z-index: 1;
+}

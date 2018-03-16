@@ -1,0 +1,19 @@
+
+
+
+div#contenti ul#itemContainer { list-style: none; padding:0; margin: 20px 0;  }
+div#contenti ul#itemContainer li { display: inline-block; margin: 5px; zoom: 1; *display:inline; }
+div#contenti ul#itemContainer ll li img { vertical-align: bottom; width: 125px; height: 125px; }
+
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here 
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here 
+
+}
+
+

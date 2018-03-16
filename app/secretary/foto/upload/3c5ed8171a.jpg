@@ -1,0 +1,114 @@
+CREATE TABLE IF NOT EXISTS `deget` (
+	`Dg_id` int(11) NOT NULL AUTO_INCREMENT,
+	`Emri` varchar(100),
+	`Prog_studimi` varchar(100),
+	`D_id` int(11),
+	PRIMARY KEY (Dg_id),
+);
+
+CREATE TABLE IF NOT EXISTS `departamentet` (
+	`D_id` int(11) NOT NULL AUTO_INCREMENT,
+	`Emri` varchar(100),
+	PRIMARY KEY (D_id),
+);
+
+CREATE TABLE IF NOT EXISTS `lendet` (
+	`L_id` int(11) NOT NULL AUTO_INCREMENT,
+	`Dg_id` int(11),
+	`Emri` varchar(100),
+	`P_id` int(11),
+	`Kredite` int(11),
+	`Viti` int(11),
+	`Prog_studimi` varchar(100),
+	PRIMARY KEY (L_id),
+);
+
+CREATE TABLE IF NOT EXISTS `njoftimet` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+	`titulli` varchar(150),
+	`pershkrimi` varchar(9000),
+	`foto` varchar(150),
+	`data` datetime,
+	`id_autori` int(20),
+	`autori` varchar(50),
+	PRIMARY KEY (id),
+);
+
+CREATE TABLE IF NOT EXISTS `profesoret` (
+	`P_id` int(11) NOT NULL AUTO_INCREMENT,
+	`Emri` varchar(50),
+	`Mbiemri` varchar(50),
+	`Username` varchar(50),
+	`Password` varchar(50),
+	`D_id` int(11),
+	`Status` boolean not null default 0,
+	`Datelindja` date,
+	`Foto` varchar(150),
+	`Email` varchar(150),
+	`Type` varchar(50),
+	`nrtel` varchar(50),
+	PRIMARY KEY (P_id),
+);
+
+CREATE TABLE IF NOT EXISTS `sekretaria` (
+	`s_id` int(11) NOT NULL AUTO_INCREMENT,
+	`emri` varchar(50),
+	`mbiemri` varchar(50),
+	`username` varchar(50),
+	`password` varchar(50),
+	`d_id` int(11),
+	`status` boolean not null default 0,
+	`datelindja` date,
+	`foto` varchar(150),
+	`email` varchar(150),
+	`type` varchar(50),
+	`nrtel` varchar(50),
+	PRIMARY KEY (ID),
+);
+
+CREATE TABLE IF NOT EXISTS `student` (
+	`ID` int(11) NOT NULL AUTO_INCREMENT,
+	`Emri` varchar(50),
+	`Mbiemri` varchar(50),
+	`Username` varchar(50),
+	`Password` varchar(50),
+	`Dg_id` int(11),
+	`D_id` int(11),
+	`Status` boolean not null default 0,
+	`Datelindja` date,
+	`Foto` varchar(150),
+	`Email` varchar(150),
+	`Type` varchar(50),
+	`nrtel` varchar(50),
+	PRIMARY KEY (ID),
+);
+
+
+ALTER TABLE deget
+ADD FOREIGN KEY (D_Id)
+REFERENCES departamentet(D_id)
+
+ALTER TABLE lendet
+ADD FOREIGN KEY (Dg_Id)
+REFERENCES deget(Dg_id)
+
+ALTER TABLE lendet
+ADD FOREIGN KEY (P_Id)
+REFERENCES profesoret(P_id)
+
+ALTER TABLE profesoret
+ADD FOREIGN KEY (D_Id)
+REFERENCES departamentet(D_id)
+
+ALTER TABLE sekretaria
+ADD FOREIGN KEY (D_Id)
+REFERENCES departamentet(D_id)
+
+ALTER TABLE student
+ADD FOREIGN KEY (Dg_Id)
+REFERENCES deget(Dg_id)
+
+ALTER TABLE student
+ADD FOREIGN KEY (D_Id)
+REFERENCES departamentet(D_id)
+
